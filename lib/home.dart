@@ -29,13 +29,13 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Tugas Bayu"),),
+      appBar: AppBar(title: Text("UAS ANDROID"),),
       body: Container(
         child: SingleChildScrollView(
             child: Column(
           children: [
             SizedBox(height: 5,),
-            Text("UAS Bayu 00000120301230"),
+            Text("UAS BAYU BRIYAN ELROY 19201039"),
             SizedBox(height: 5,),
             Image.asset(Images.IMAGE_PREVIEW,width: 60,),
             SizedBox(height: 5,),
@@ -62,7 +62,8 @@ class _homeState extends State<home> {
                          ),
                        )
                       ],
-                    )),
+                    )
+                ),
               ),
             ),
             Text("Menampilkan List Data Json"),
